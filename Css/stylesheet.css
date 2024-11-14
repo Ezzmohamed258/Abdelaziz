@@ -1,0 +1,563 @@
+body{
+    background-color:#F5F5F5;
+}
+.my-nav .nav-link, .navbar-nav .nav-link.active{
+    color: white;
+}
+.Home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)) , url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+html{
+    scroll-padding-top:70px ;
+}
+.Home-contant h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+}
+.Home-contant span{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+.Home-contant span::after{
+    content: "|";
+    animation: intro 15s infinite;
+}
+@keyframes intro {
+    0% {
+        content:
+            " d|"
+    }
+
+    1.282% {
+        content:
+            "de|"
+    }
+
+    2.564% {
+        content:
+            "des|"
+    }
+
+    3.846% {
+        content:
+            "desi|"
+    }
+
+    5.128% {
+        content:
+            "desig|"
+    }
+
+    6.41% {
+        content:
+            "design|"
+    }
+
+    7.692% {
+        content:
+            "designe|"
+    }
+
+    8.974% {
+        content:
+            "designer|"
+    }
+
+    10.256% {
+        content:
+            "designe|"
+    }
+
+    11.538% {
+        content:
+            "design|"
+    }
+
+    12.82% {
+        content:
+            "desig|"
+    }
+
+    14.102% {
+        content:
+            "desi|"
+    }
+
+    15.384% {
+        content:
+            "des|"
+    }
+
+    16.666% {
+        content:
+            "de|"
+    }
+
+    17.948% {
+        content:
+            " d|"
+    }
+
+    19.23% {
+        content:
+            "de|"
+    }
+
+    20.512% {
+        content:
+            "dev|"
+    }
+
+    21.794% {
+        content:
+            "deve|"
+    }
+
+    23.076% {
+        content:
+            "devel|"
+    }
+
+    24.358% {
+        content:
+            "develo|"
+    }
+
+    25.64% {
+        content:
+            "develop|"
+    }
+
+    26.922% {
+        content:
+            "develop|"
+    }
+
+    28.204% {
+        content:
+            "developer|"
+    }
+
+    29.486% {
+        content:
+            "develop|"
+    }
+
+    30.768% {
+        content:
+            "develop|"
+    }
+
+    32.05% {
+        content:
+            "develo|"
+    }
+
+    33.332% {
+        content:
+            "devel|"
+    }
+
+    34.614% {
+        content:
+            "deve|"
+    }
+
+    35.896% {
+        content:
+            "dev|"
+    }
+
+    37.178% {
+        content:
+            "de|"
+    }
+
+    38.46% {
+        content:
+            " d|"
+    }
+
+    39.742% {
+        content:
+            " f|"
+    }
+
+    41.024% {
+        content:
+            "fr|"
+    }
+
+    42.306% {
+        content:
+            "fre|"
+    }
+
+    43.588% {
+        content:
+            "free|"
+    }
+
+    44.87% {
+        content:
+            "freel|"
+    }
+
+    46.152% {
+        content:
+            "freela|"
+    }
+
+    47.434% {
+        content:
+            "freelan|"
+    }
+
+    48.716% {
+        content:
+            "freelanc|"
+    }
+
+    49.998% {
+        content:
+            "freelance|"
+    }
+
+    51.28% {
+        content:
+            "freelancer|"
+    }
+
+    52.562% {
+        content:
+            "freelance|"
+    }
+
+    53.844% {
+        content:
+            "freelanc|"
+    }
+
+    55.126% {
+        content:
+            "freelan|"
+    }
+
+    56.408% {
+        content:
+            "freela|"
+    }
+
+    57.69% {
+        content:
+            "freel|"
+    }
+
+    58.972% {
+        content:
+            "free|"
+    }
+
+    60.254% {
+        content:
+            "fre|"
+    }
+
+    61.536% {
+        content:
+            "fr|"
+    }
+
+    62.818% {
+        content:
+            " f|"
+    }
+
+    64.1% {
+        content:
+            " p|"
+    }
+
+    65.382% {
+        content:
+            "ph|"
+    }
+
+    66.664% {
+        content:
+            "pho|"
+    }
+
+    67.946% {
+        content:
+            "phot|"
+    }
+
+    69.228% {
+        content:
+            "photo|"
+    }
+
+    70.51% {
+        content:
+            "photog|"
+    }
+
+    71.792% {
+        content:
+            "photogr|"
+    }
+
+    73.074% {
+        content:
+            "photogra|"
+    }
+
+    74.356% {
+        content:
+            "photograp|"
+    }
+
+    75.638% {
+        content:
+            "photograph|"
+    }
+
+    76.92% {
+        content:
+            "photographe|"
+    }
+
+    78.202% {
+        content:
+            "photographer|"
+    }
+
+    79.484% {
+        content:
+            "photographe|"
+    }
+
+    80.766% {
+        content:
+            "photograph|"
+    }
+
+    84.048% {
+        content:
+            "photograp|"
+    }
+
+    86.33% {
+        content:
+            "photogra|"
+    }
+
+    88.612% {
+        content:
+            "photogr|"
+    }
+
+    90.894% {
+        content:
+            "photog|"
+    }
+
+    92.176% {
+        content:
+            "photo|"
+    }
+
+    93.458% {
+        content:
+            "phot|"
+    }
+
+    95.74% {
+        content:
+            "pho|"
+    }
+
+    98.022% {
+        content:
+            "ph|"
+    }
+
+    100% {
+        content:
+            " p|"
+    }
+
+}
+.collapse ul li a::after{
+    content: "";
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    bottom: 0; 
+    width: 80%;
+    transform: scaleX(0); 
+    transform-origin: bottom left; 
+    transition: transform 0.5s ease-out;
+}
+.collapse ul li a:hover::after{
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+
+
+}
+.services-items .my-bg{
+    background-color: white;
+}
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+}
+.icon-circle i {
+    font-size: 40px;
+    color: black;
+}
+.line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #007bff;
+    margin: 0 auto;
+}
+.service-box:hover .icon-circle{
+    background-color: #007bff;
+}
+.service-box:hover .icon-circle i{
+    color: white;
+}
+.counter{
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.counter .layer{
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+.icon-counter {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s linear;
+}
+.icon-counter i {
+    font-size: 30px;
+    color: #fff;
+}
+.portfolio-card .box-img{
+    display: block;
+    overflow: hidden;
+}
+.portfolio-card .card-img-top{
+    transition: all 1s ease;
+}
+.card-body .bi{
+    cursor: pointer;
+}
+.portfolio-card:hover .card-img-top{
+    scale: 1.3;
+}
+.slider{
+    background-image: linear-gradient(#0078ff80 , #0078ff80) , url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.slider .container{
+    padding: 150px 0px;
+}
+.carousel-inner .my-slide img{
+    width: 100px;
+    height: 100px;
+}
+.my-slide{
+    padding: 70px;
+    color: #fff;
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.blog-item a{
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.blog-item a:hover{
+    color: #007bff;
+}
+.my-contact{
+    background-image: linear-gradient(#0078ff80 , #0078ff80) , url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.list-icons span{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.title-left:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+.social-icon .icon {
+    height: 40px;
+    width: 40px;
+    font-size: 1.3rem;
+    border: 3px solid #0078ff ;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 30px 0 0;
+    transition: all 500ms ease;
+}
+.social-icon .icon a{
+    color: black;
+}
+.social-icon .icon:hover{
+    background-color:#0078ff ;
+    border-color: rgba(205, 225, 248);
+}
+.social-icon .icon:hover a{
+    color: #fff;
+}
+.footer{
+    background-color: #0062D3;
+}
+
+
+
