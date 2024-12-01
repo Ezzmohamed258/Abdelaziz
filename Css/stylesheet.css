@@ -395,23 +395,18 @@ html{
     }
 
 }
-.collapse ul li a::after{
-    content: "";
-    height: 2px;
-    position: absolute;
-    background-color: #fff;
-    left: 0;
-    bottom: 0; 
-    width: 80%;
-    transform: scaleX(0); 
-    transform-origin: bottom left; 
-    transition: transform 0.5s ease-out;
+.navbar-nav li .active:after {
+    width: 100%;
 }
-.collapse ul li a:hover::after{
-    transform: scaleX(1); 
-    transform-origin: bottom left;
-
-
+.navbar-nav li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
 }
 .services-items .my-bg{
     background-color: white;
